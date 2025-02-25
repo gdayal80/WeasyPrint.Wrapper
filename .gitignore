@@ -1,0 +1,6 @@
+src/WeasyPrint.Wrapper/obj
+src/WeasyPrint.Wrapper/bin
+src/WeasyPrint.Wrapper.Program/obj
+src/WeasyPrint.Wrapper.Program/bin
+src/WeasyPrint.Wrapper.Test/obj
+src/WeasyPrint.Wrapper.Test/bin
