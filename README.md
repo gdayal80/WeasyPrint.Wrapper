@@ -28,6 +28,19 @@ From nuget packages
 using WeasyPrint.Wrapper;
 using System.IO;
 
+public class ConsoleTraceWriter : ITraceWriter
+{
+    public void Info(string message)
+    {
+        Console.WriteLine(message);
+    }
+
+    public void Verbose(string message)
+    {
+        
+    }
+}
+
 string workingDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
 var trace = new ConsoleTraceWriter();
 
